@@ -62,9 +62,6 @@ imageTests+=(
 	[eclipse-mosquitto]='
 		eclipse-mosquitto-basics
 	'
-	[elasticsearch]='
-		elasticsearch-basics
-	'
 	[elixir]='
 		elixir-hello-world
 	'
@@ -109,6 +106,12 @@ imageTests+=(
 	[logstash]='
 		logstash-basics
 	'
+	[matomo:apache]='
+		matomo-apache-run
+	'
+	[matomo:fpm]='
+		matomo-fpm-run
+	'
 	[memcached]='
 		memcached-basics
 	'
@@ -143,9 +146,7 @@ imageTests+=(
 		mysql-log-bin
 	'
 	[nextcloud]='
-		nextcloud-cli-mysql
-		nextcloud-cli-postgres
-		nextcloud-cli-sqlite
+		nextcloud-cli
 	'
 	[nextcloud:apache]='
 		nextcloud-apache-run
@@ -174,6 +175,7 @@ imageTests+=(
 	'
 	[perl]='
 		perl-hello-world
+		perl-cpanm
 	'
 	[php]='
 		php-ext-install
@@ -194,6 +196,12 @@ imageTests+=(
 		plone-zeoclient
 		plone-zeosite
 	'
+	[postfixadmin:apache]='
+		postfixadmin-apache-run
+	'
+	[postfixadmin:fpm]='
+		postfixadmin-fpm-run
+	'
 	[postgres]='
 		postgres-basics
 		postgres-initdb
@@ -201,6 +209,7 @@ imageTests+=(
 	[python]='
 		python-hy
 		python-imports
+		python-no-pyc
 		python-pip-requests-ssl
 		python-sqlite3
 		python-stack-size

@@ -1,49 +1,49 @@
-# This file is generated via https://github.com/nextcloud/docker/blob/e3c4b823e31c55dc7d908f591a51c947535cee78/generate-stackbrew-library.sh
+# This file is generated via https://github.com/nextcloud/docker/blob/37ee8cfdab231703b1adb5fa20abaeceec1b95cc/generate-stackbrew-library.sh
 
 Maintainers: Nextcloud <docker@nextcloud.com> (@nextcloud)
 GitRepo: https://github.com/nextcloud/docker.git
 
-Tags: 20.0.14-apache, 20.0-apache, 20-apache, 20.0.14, 20.0, 20
+Tags: 25.0.13-apache, 25.0-apache, 25-apache, 25.0.13, 25.0, 25
 Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
-GitCommit: 7fc6772513dd0da3b790dac4fcdc2e7b90a72546
-Directory: 20/apache
+GitCommit: 4c24a2ae8ed0b1c6dff7aeddb6fb2d8e07d87f3e
+Directory: 25/apache
 
-Tags: 20.0.14-fpm, 20.0-fpm, 20-fpm
+Tags: 25.0.13-fpm, 25.0-fpm, 25-fpm
 Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
-GitCommit: 7fc6772513dd0da3b790dac4fcdc2e7b90a72546
-Directory: 20/fpm
+GitCommit: 4c24a2ae8ed0b1c6dff7aeddb6fb2d8e07d87f3e
+Directory: 25/fpm
 
-Tags: 20.0.14-fpm-alpine, 20.0-fpm-alpine, 20-fpm-alpine
+Tags: 25.0.13-fpm-alpine, 25.0-fpm-alpine, 25-fpm-alpine
 Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, s390x
-GitCommit: 7fc6772513dd0da3b790dac4fcdc2e7b90a72546
-Directory: 20/fpm-alpine
+GitCommit: 4c24a2ae8ed0b1c6dff7aeddb6fb2d8e07d87f3e
+Directory: 25/fpm-alpine
 
-Tags: 21.0.7-apache, 21.0-apache, 21-apache, 21.0.7, 21.0, 21
+Tags: 26.0.8-apache, 26.0-apache, 26-apache, 26.0.8, 26.0, 26
 Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
-GitCommit: 4821c307e90f05fef629c08fb93b8edc7e62c374
-Directory: 21/apache
+GitCommit: 4c24a2ae8ed0b1c6dff7aeddb6fb2d8e07d87f3e
+Directory: 26/apache
 
-Tags: 21.0.7-fpm, 21.0-fpm, 21-fpm
+Tags: 26.0.8-fpm, 26.0-fpm, 26-fpm
 Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
-GitCommit: 4821c307e90f05fef629c08fb93b8edc7e62c374
-Directory: 21/fpm
+GitCommit: 4c24a2ae8ed0b1c6dff7aeddb6fb2d8e07d87f3e
+Directory: 26/fpm
 
-Tags: 21.0.7-fpm-alpine, 21.0-fpm-alpine, 21-fpm-alpine
+Tags: 26.0.8-fpm-alpine, 26.0-fpm-alpine, 26-fpm-alpine
 Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, s390x
-GitCommit: 4821c307e90f05fef629c08fb93b8edc7e62c374
-Directory: 21/fpm-alpine
+GitCommit: 4c24a2ae8ed0b1c6dff7aeddb6fb2d8e07d87f3e
+Directory: 26/fpm-alpine
 
-Tags: 22.2.3-apache, 22.2-apache, 22-apache, apache, stable-apache, production-apache, 22.2.3, 22.2, 22, latest, stable, production
+Tags: 27.1.3-apache, 27.1-apache, 27-apache, apache, stable-apache, production-apache, 27.1.3, 27.1, 27, latest, stable, production
 Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
-GitCommit: 4821c307e90f05fef629c08fb93b8edc7e62c374
-Directory: 22/apache
+GitCommit: 4c24a2ae8ed0b1c6dff7aeddb6fb2d8e07d87f3e
+Directory: 27/apache
 
-Tags: 22.2.3-fpm, 22.2-fpm, 22-fpm, fpm, stable-fpm, production-fpm
+Tags: 27.1.3-fpm, 27.1-fpm, 27-fpm, fpm, stable-fpm, production-fpm
 Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
-GitCommit: 4821c307e90f05fef629c08fb93b8edc7e62c374
-Directory: 22/fpm
+GitCommit: 4c24a2ae8ed0b1c6dff7aeddb6fb2d8e07d87f3e
+Directory: 27/fpm
 
-Tags: 22.2.3-fpm-alpine, 22.2-fpm-alpine, 22-fpm-alpine, fpm-alpine, stable-fpm-alpine, production-fpm-alpine
+Tags: 27.1.3-fpm-alpine, 27.1-fpm-alpine, 27-fpm-alpine, fpm-alpine, stable-fpm-alpine, production-fpm-alpine
 Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, s390x
-GitCommit: 4821c307e90f05fef629c08fb93b8edc7e62c374
-Directory: 22/fpm-alpine
+GitCommit: 4c24a2ae8ed0b1c6dff7aeddb6fb2d8e07d87f3e
+Directory: 27/fpm-alpine

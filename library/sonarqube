@@ -1,36 +1,46 @@
-Maintainers: Christophe Levis <christophe.levis@sonarsource.com> (@christophelevis),
-             Pierre Guillot <pierre.guillot@sonarsource.com> (@pierre-guillot-sonarsource),
-             Tobias Trabelsi <tobias.trabelsi@sonarsource.com> (@tobias-trabelsi-sonarsource),
-             Lukasz Jarocki <lukasz.jarocki@sonarsource.com> (@lukasz-jarocki-sonarsource)
+Maintainers: Carmine Vassallo <carmine.vassallo@sonarsource.com> (@carminevassallo),
+             Jeremy Cotineau <jeremy.cotineau@sonarsource.com> (@jCOTINEAU),
+             Davi Koscianski Vidal <davi.koscianski-vidal@sonarsource.com> (@davividal)
 GitRepo: https://github.com/SonarSource/docker-sonarqube.git
-GitCommit: ab8ab314a3324af5ea954c02a46f343c194a2bb3
+Architectures: amd64, arm64v8
+GitCommit: 242f073026e8d9368f72f83c6a2dbd368299121b
 
-Tags: 8.9.3-community, 8.9-community, 8-community, lts, lts-community
-Directory: 8/community
-
-Tags: 8.9.3-developer, 8.9-developer, 8-developer, lts-developer
-Directory: 8/developer
-
-Tags: 8.9.3-enterprise, 8.9-enterprise, 8-enterprise, lts-enterprise
-Directory: 8/enterprise
-
-Tags: 8.9.3-datacenter-app, 8.9-datacenter-app, 8-datacenter-app, lts-datacenter-app
-Directory: 8/datacenter/app
-
-Tags: 8.9.3-datacenter-search, 8.9-datacenter-search, 8-datacenter-search, lts-datacenter-search
-Directory: 8/datacenter/search
-
-Tags: 9.2.1-community, 9.2-community, 9-community, community, latest
+Tags: 9.9.3-community, 9.9-community, 9-community, lts, lts-community
+Architectures: amd64, arm64v8
 Directory: 9/community
 
-Tags: 9.2.1-developer, 9.2-developer, 9-developer, developer
+Tags: 9.9.3-developer, 9.9-developer, 9-developer, lts-developer
+Architectures: amd64, arm64v8
 Directory: 9/developer
 
-Tags: 9.2.1-enterprise, 9.2-enterprise, 9-enterprise, enterprise
+Tags: 9.9.3-enterprise, 9.9-enterprise, 9-enterprise, lts-enterprise
+Architectures: amd64, arm64v8
 Directory: 9/enterprise
 
-Tags: 9.2.1-datacenter-app, 9.2-datacenter-app, 9-datacenter-app, datacenter-app
+Tags: 9.9.3-datacenter-app, 9.9-datacenter-app, 9-datacenter-app, lts-datacenter-app
+Architectures: amd64, arm64v8
 Directory: 9/datacenter/app
 
-Tags: 9.2.1-datacenter-search, 9.2-datacenter-search, 9-datacenter-search, datacenter-search
+Tags: 9.9.3-datacenter-search, 9.9-datacenter-search, 9-datacenter-search, lts-datacenter-search
+Architectures: amd64, arm64v8
 Directory: 9/datacenter/search
+
+Tags: 10.3.0-community, 10.3-community, 10-community, community, latest
+Architectures: amd64, arm64v8
+Directory: 10/community
+
+Tags: 10.3.0-developer, 10.3-developer, 10-developer, developer
+Architectures: amd64, arm64v8
+Directory: 10/developer
+
+Tags: 10.3.0-enterprise, 10.3-enterprise, 10-enterprise, enterprise
+Architectures: amd64, arm64v8
+Directory: 10/enterprise
+
+Tags: 10.3.0-datacenter-app, 10.3-datacenter-app, 10-datacenter-app, datacenter-app
+Architectures: amd64, arm64v8
+Directory: 10/datacenter/app
+
+Tags: 10.3.0-datacenter-search, 10.3-datacenter-search, 10-datacenter-search, datacenter-search
+Architectures: amd64, arm64v8
+Directory: 10/datacenter/search
